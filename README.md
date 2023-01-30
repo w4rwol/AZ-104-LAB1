@@ -6,16 +6,19 @@ Para permitir que los usuarios de Contoso se autentiquen mediante Azure AD, se l
 **Nota:** Hay disponible una simulación de laboratorio interactiva que le permite hacer clic en este laboratorio a su propio ritmo. Es posible que encuentre ligeras diferencias entre la simulación interactiva y el laboratorio alojado, pero los conceptos e ideas centrales que se demuestran son los mismos.
 
 ## Objetivos
-En este laboratorio, usted:
+En este laboratorio, usted hará:
 
-Tarea 1: crear y configurar usuarios de Azure AD
-Tarea 2: crear grupos de Azure AD con pertenencia dinámica y asignada
-Tarea 3: crear un arrendatario de Azure Active Directory (AD) (opcional: problema del entorno de laboratorio)
-Tarea 4: administrar usuarios invitados de Azure AD (opcional: problema del entorno de laboratorio)
-Tiempo estimado: 30 minutos
+- Tarea 1: crear y configurar usuarios de Azure AD
+- Tarea 2: crear grupos de Azure AD con pertenencia dinámica y asignada
+- Tarea 3: crear un arrendatario de Azure Active Directory (AD) (opcional: problema del entorno de laboratorio)
+- Tarea 4: administrar usuarios invitados de Azure AD (opcional: problema del entorno de laboratorio)
+
+***Tiempo estimado: 30 minutos***
 
 ## Diagrama de arquitectura
+
 ![Alt text](./img/0.PNG)
+
 ## Instrucciones
 ### Ejercicio 1
 ### Tarea 1: crear y configurar usuarios de Azure AD
@@ -50,17 +53,25 @@ En esta tarea, creará y configurará usuarios de Azure AD.
     | Departamento | IT |
     | | |
 
+![Alt text](./img/1.PNG)
+
+![Alt text](./img/2.PNG)
+
 **Nota :** copie en el portapapeles el nombre principal de usuario completo (nombre de usuario más dominio). Lo necesitará más adelante en esta tarea.
 
 8. En la lista de usuarios, haga clic en la cuenta de usuario recién creada para mostrar su hoja.
 
 9. Revise las opciones disponibles en la sección **Administrar** y tenga en cuenta que puede identificar los roles de Azure AD asignados a la cuenta de usuario, así como los permisos de la cuenta de usuario para los recursos de Azure.
 
+![Alt text](./img/3.PNG)
+
 10. En la sección **Administrar** , haga clic en **Roles asignados** , luego haga clic en el botón **+ Agregar asignación** y asigne el rol de **administrador de usuarios** a **az104-01a-aaduser1** .
 
 **Nota :** también tiene la opción de asignar roles de Azure AD al aprovisionar un nuevo usuario.
 
 11. Abra una ventana del explorador de **InPrivate** e inicie sesión en Azure Portal con la cuenta de usuario recién creada. Cuando se le solicite que actualice la contraseña, cámbiela por una contraseña segura de su elección.
+
+![Alt text](./img/4.PNG)
 
 **Nota :** en lugar de escribir el nombre de usuario (incluido el nombre de dominio), puede pegar el contenido del Portapapeles.
 
@@ -85,6 +96,8 @@ En esta tarea, creará y configurará usuarios de Azure AD.
     | Departamento | IT |
     | | |
 
+![Alt text](./img/5.PNG)
+
 16. Regístrese como usuario az104-01a-aaduser1 en Azure Portal y cierre la ventana del explorador de InPrivate.
 
 ### Tarea 2: crear grupos de Azure AD con pertenencia dinámica y asignada
@@ -95,6 +108,8 @@ En esta tarea, creará grupos de Azure Active Directory con membresía asignada 
 **Nota :** Se requieren licencias de Azure AD Premium P1 o P2 para implementar grupos dinámicos.
 
 2. En la sección **Administrar , haga clic en Todos los productos** .
+
+![Alt text](./img/6.PNG)
 
 3. Haga clic en **+ Probar/Comprar** y active la prueba gratuita de Azure AD Premium P2.
 
@@ -115,6 +130,8 @@ En esta tarea, creará grupos de Azure Active Directory con membresía asignada 
     | Descripción del Grupo | Administradores de la nube de TI de Contoso |
     | Tipo de membresía | Usuario dinámico |
     | | |
+
+![Alt text](./img/7.PNG)
 
 **Nota :** si la lista desplegable **Tipo de membresía está atenuada, espere unos minutos y actualice la página del navegador.**
 
