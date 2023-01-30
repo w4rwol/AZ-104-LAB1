@@ -39,16 +39,16 @@ En esta tarea, creará y configurará usuarios de Azure AD.
 
 7. Cree un nuevo usuario con la siguiente configuración (deje los demás con sus valores predeterminados):
 
-        | Entorno | Valor |
-        |  -- | -- |
-        | Nombre de usuario | az104-01a-aduser1 |
-        | Nombre | az104-01a-aduser1 |
-        | Déjame crear la contraseña | Activado |
-        | Contraseña inicial | Proporcione una contraseña segura |
-        | Ubicación de uso | Estados Unidos |
-        | Título profesional | Administrador de la nube |
-        | Departamento | IT |
-        | | |
+    | Entorno | Valor |
+    |  -- | -- |
+    | Nombre de usuario | az104-01a-aduser1 |
+    | Nombre | az104-01a-aduser1 |
+    | Déjame crear la contraseña | Activado |
+    | Contraseña inicial | Proporcione una contraseña segura |
+    | Ubicación de uso | Estados Unidos |
+    | Título profesional | Administrador de la nube |
+    | Departamento | IT |
+    | | |
 
 **Nota :** copie en el portapapeles el nombre principal de usuario completo (nombre de usuario más dominio). Lo necesitará más adelante en esta tarea.
 
@@ -74,16 +74,16 @@ En esta tarea, creará y configurará usuarios de Azure AD.
 
 15. Cree un nuevo usuario con la siguiente configuración (deje los demás con sus valores predeterminados):
 
-        | Entorno | Valor |
-        |  -- | -- |
-        | Nombre de usuario | az104-01a-aduser2 |
-        | Nombre | az104-01a-aduser2 |
-        | Déjame crear la contraseña | Activado |
-        | Contraseña inicial | Proporcione una contraseña segura |
-        | Ubicación de uso | Estados Unidos |
-        | Título profesional | Administrador de la nube |
-        | Departamento | IT |
-        | | |
+    | Entorno | Valor |
+    |  -- | -- |
+    | Nombre de usuario | az104-01a-aduser2 |
+    | Nombre | az104-01a-aduser2 |
+    | Déjame crear la contraseña | Activado |
+    | Contraseña inicial | Proporcione una contraseña segura |
+    | Ubicación de uso | Estados Unidos |
+    | Título profesional | Administrador de la nube |
+    | Departamento | IT |
+    | | |
 
 16. Regístrese como usuario az104-01a-aaduser1 en Azure Portal y cierre la ventana del explorador de InPrivate.
 
@@ -108,13 +108,13 @@ En esta tarea, creará grupos de Azure Active Directory con membresía asignada 
 
 3. Use el botón + Nuevo grupo para crear un nuevo grupo con la siguiente configuración:
 
-        | Entorno | Valor |
-        |  -- | -- |
-        | Tipo de grupo | Seguridad |
-        | Nombre del grupo | Administradores de la nube de TI |
-        | Descripción del Grupo | Administradores de la nube de TI de Contoso |
-        | Tipo de membresía | Usuario dinámico |
-        | | |
+    | Entorno | Valor |
+    |  -- | -- |
+    | Tipo de grupo | Seguridad |
+    | Nombre del grupo | Administradores de la nube de TI |
+    | Descripción del Grupo | Administradores de la nube de TI de Contoso |
+    | Tipo de membresía | Usuario dinámico |
+    | | |
 
 **Nota :** si la lista desplegable **Tipo de membresía está atenuada, espere unos minutos y actualice la página del navegador.**
 
@@ -122,46 +122,46 @@ En esta tarea, creará grupos de Azure Active Directory con membresía asignada 
 
 5. En la pestaña **Configurar reglas de la hoja Reglas de membresía dinámica** , cree una nueva regla con la siguiente configuración:
 
-        | Entorno | Valor |
-        |  -- | -- |
-        | Propiedad | título profesional |
-        | Operador | Igual |
-        | Valor | Administradores de la nube de TI de Contoso |
-        | | |
+    | Entorno | Valor |
+    |  -- | -- |
+    | Propiedad | título profesional |
+    | Operador | Igual |
+    | Valor | Administradores de la nube de TI de Contoso |
+    | | |
 
 6. Guarde la regla haciendo clic en **+Agregar expresión y Guardar** . De vuelta en la hoja **Nuevo grupo , haga clic en Crear** .
 
 7. De vuelta en la hoja **Grupos - Todos los grupos** del arrendatario de Azure AD, haga clic en el botón **+ Nuevo grupo** y cree un nuevo grupo con la siguiente configuración:
 
-        | Entorno | Valor |
-        |  -- | -- |
-        | Tipo de grupo | Seguridad |
-        | Nombre del grupo | Administradores de sistemas de TI |
-        | Descripción del Grupo | Administradores de sistemas de TI de Contoso |
-        | Tipo de membresía | Usuario dinámico |
-        | | |
+    | Entorno | Valor |
+    |  -- | -- |
+    | Tipo de grupo | Seguridad |
+    | Nombre del grupo | Administradores de sistemas de TI |
+    | Descripción del Grupo | Administradores de sistemas de TI de Contoso |
+    | Tipo de membresía | Usuario dinámico |
+    | | |
 
 8. Haga clic en **Agregar consulta dinámica** .
 
 9. En la pestaña **Configurar reglas de la hoja Reglas de membresía dinámica** , cree una nueva regla con la siguiente configuración:
 
-        | Entorno | Valor |
-        | -- | -- |
-        | Propiedad	| Título profesional |
-        | Operador | Igual |
-        | Valor	| Administrador de sistema |
-        | | |
+    | Entorno | Valor |
+    | -- | -- |
+    | Propiedad	| Título profesional |
+    | Operador | Igual |
+    | Valor	| Administrador de sistema |
+    | | |
 10. Guarde la regla haciendo clic en **+Agregar expresión** y **Guardar** . De vuelta en la hoja **Nuevo grupo , haga clic en Crear** .
 
 11. Vuelva a la hoja **Grupos - Todos los grupos** del inquilino de Azure AD, haga clic en el botón **+ Nuevo grupo** y cree un nuevo grupo con la siguiente configuración:
 
-        | Entorno |	Valor |
-        | -- | -- |
-        | tipo de grupo	| Seguridad |
-        | Nombre del grupo	| Administradores de laboratorio de TI |
-        | Descripción del Grupo | Administradores del laboratorio de TI de Contoso |
-        | Tipo de membresía	| Asignado |
-        | | |
+    | Entorno |	Valor |
+    | -- | -- |
+    | tipo de grupo	| Seguridad |
+    | Nombre del grupo	| Administradores de laboratorio de TI |
+    | Descripción del Grupo | Administradores del laboratorio de TI de Contoso |
+    | Tipo de membresía	| Asignado |
+    | | |
 
 12. Haga clic en **Ningún miembro seleccionado** .
 
