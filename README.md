@@ -202,7 +202,7 @@ En esta tarea, creará un nuevo arrendatario de Azure AD.
     | Configuración | Valor |
     | -- | -- |
     | Tipo de directorio | Directorio activo de Azure |
-    | -- | -- |
+    | | |
 
 3. Haga clic en **Siguiente: Configuración**
 
@@ -211,7 +211,7 @@ En esta tarea, creará un nuevo arrendatario de Azure AD.
     | Nombre de la Organización	| Laboratorio de Contoso |
     | nombre de dominio inicial	| cualquier nombre DNS válido que consta de letras minúsculas y dígitos y que comienza con una letra |
     | País/Región |	**Estados Unidos** |
-    | -- | -- |
+    | | |
 
     **Nota :** el nombre de dominio inicial no debe ser un nombre legítimo que pueda coincidir con su organización u otra. La marca de verificación verde en el cuadro de texto Nombre de dominio inicial indicará que el nombre de dominio que ingresó es válido y único.
 
@@ -234,7 +234,7 @@ En esta tarea, creará usuarios invitados de Azure AD y les otorgará acceso a l
     |Contraseña inicial	Proporcione una contraseña segura |
     |Título profesional | Administrador de sistema |
     |Departamento |	IT |
-    | -- | -- |
+    | | |
 
 3. Haga clic en el perfil recién creado.
 
@@ -253,7 +253,7 @@ En esta tarea, creará usuarios invitados de Azure AD y les otorgará acceso a l
     | ubicación de uso | Estados Unidos| 
     | Título profesional | Administrador de laboratorio |
     | Departamento | IT |
-    | -- | -- |
+    | | |
 
 7. Haz clic en Invitar .
 
