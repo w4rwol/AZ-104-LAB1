@@ -190,6 +190,8 @@ En esta tarea, creará grupos de Azure Active Directory con membresía asignada 
 
 15. Vuelva a la hoja **Grupos - Todos los grupos** , haga clic en la entrada que representa el grupo **Administradores del sistema de TI** y, a continuación, muestre la hoja **Miembros** . Verifique que **az104-01a-aaduser2** aparezca en la lista de miembros del grupo.
 
+![Alt text](./img/8.PNG)
+
 ### Tarea 3: crear un arrendatario de Azure Active Directory (AD) (opcional: problema del entorno de laboratorio)
 En esta tarea, creará un nuevo arrendatario de Azure AD.
 
@@ -218,6 +220,8 @@ En esta tarea, creará un nuevo arrendatario de Azure AD.
 4. Haga clic en **Revisar + crear** y luego haga clic en **Crear** .
 
 5. Muestre la hoja del arrendatario de Azure AD recién creado mediante el vínculo **Haga clic aquí para navegar a su nuevo arrendatario: Contoso Lab** o el botón **Directorio + Suscripción** (directamente a la derecha del botón Cloud Shell) en la barra de herramientas de Azure Portal.
+
+![Alt text](./img/9.PNG)
 
 ### Tarea 4: Administrar usuarios invitados de Azure AD.
 En esta tarea, creará usuarios invitados de Azure AD y les otorgará acceso a los recursos en una suscripción de Azure.
@@ -257,11 +261,15 @@ En esta tarea, creará usuarios invitados de Azure AD y les otorgará acceso a l
 
 7. Haz clic en Invitar .
 
+![Alt text](./img/10.PNG)
+
 8. De vuelta en la hoja Usuarios - Todos los usuarios , haga clic en la entrada que representa la cuenta de usuario invitado recién creada.
 
 9. En la hoja az104-01b-aaduser1 - Perfil , haga clic en Grupos .
 
 10. Haga clic en + Agregar membresía y agregue la cuenta de usuario invitado al grupo de administradores de laboratorio de TI .
+
+![Alt text](./img/11.PNG)
 
 ### Tarea 5: Limpiar recursos
 
@@ -277,11 +285,17 @@ En esta tarea, creará usuarios invitados de Azure AD y les otorgará acceso a l
 
 4. Navegue a la hoja Grupos - Todos los grupos , seleccione los grupos que creó en este laboratorio, haga clic en Eliminar y, cuando se le solicite confirmación, haga clic en Aceptar .
 
+![Alt text](./img/12.PNG)
+
 5. En Azure Portal, muestre la hoja del arrendatario de Azure AD de Contoso Lab mediante el botón Directorio + Suscripción (directamente a la derecha del botón Cloud Shell) en la barra de herramientas de Azure Portal.
 
 6. Vaya a la hoja Usuarios - Todos los usuarios , haga clic en la entrada que representa la cuenta de usuario az104-01b-aaduser1 , en la hoja az104-01b-aaduser1 - Perfil , haga clic en Eliminar y, cuando se le solicite confirmación, haga clic en Aceptar .
 
+![Alt text](./img/13.PNG)
+
 7. Vaya a Contoso Lab: hoja de descripción general del arrendatario de Azure AD de Contoso Lab, haga clic en Administrar arrendatarios y luego, en la siguiente pantalla, seleccione la casilla junto a Contoso Lab , haga clic en Eliminar , en el enlace Eliminar arrendatario 'Contoso Labs'. hoja, haga clic en el vínculo Obtener permiso para eliminar recursos de Azure , en la hoja Propiedades de Azure Active Directory, establezca Administración de acceso para recursos de Azure en Sí y haga clic en Guardar .
+
+![Alt text](./img/14.PNG)
 
 8. Vuelva a la hoja Eliminar inquilino 'Contoso Lab' y haga clic en Actualizar , haga clic en Eliminar .
 
